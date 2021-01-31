@@ -169,7 +169,7 @@ This by default uses our provided trained models. If you first want to retrain t
 
 ```bash
 python train_classifier.py --model base --dataset fmnist --class_use 0 3 4 --epochs 80
-python train_GCE.py --model_file base_fmnist_38_classifier --train_steps 3000 --K 2 --L 4 --lam 0.07 --Nalpha 15 --Nbeta 75
+python train_GCE.py --model_file base_fmnist_034_classifier --train_steps 3000 --K 2 --L 4 --lam 0.07 --Nalpha 15 --Nbeta 75
 ```
 
 Followed by:
