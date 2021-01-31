@@ -89,6 +89,8 @@ To train all explainers we used to create our figures, you can run: `bash train_
 Again this script can be used to work with your own classifier you just need to specify the correct `--model_file`. I.e. `python train_GCE.py --model_file your-own-model-classifier ...`
 
 # Figures
+Note that all figures can be found in `reports/GCEs`, with the corresponding model-name. More figures can be found in reports, but these were generated in other ways and kept for completeness sake.
+
 ## Sweeps
 To generate the sweeps as are shown in for example Figure 3 you can use `generate_explanations.py`. It has one optional argument where you can specify what explainer to use to create the sweep. The default parameter is listed at the bottom of the file. To for example re-create the figure using the Inception-Net classifier we trained earlier you can run:
 
