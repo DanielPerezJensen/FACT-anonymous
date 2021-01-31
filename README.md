@@ -45,7 +45,7 @@ To train any of the 4 provided classifiers you can use the `train_classifier.py`
 
 For example to train a classifier on MNIST for the classes 3 and 8 using InceptionNet you could call:
 
-`python train_classifier.py --model inceptionnet --dataset mnist -- class_use 3 8`
+`python train_classifier.py --model inceptionnet --dataset mnist --class_use 3 8`
 
 Options not listed will use the default parameters listed in the bottom of the `train_classifier.py` file.
 
