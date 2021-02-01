@@ -81,7 +81,7 @@ To train an explainer for a classifier you can use `train_GCE.py`. This script a
 To for example train the inceptionnet classifier we trained above with 1 alpha factor and 7 beta factors, with a lambda of 0.05 you could call:
 
 ```bash
-python train_GCE --model_file inceptionnet_mnist_38_classifier --K 1 --L 7 --lam 0.05
+python train_GCE.py --model_file inceptionnet_mnist_38_classifier --K 1 --L 7 --lam 0.05
 ```
 
 To train all explainers we used to create our figures, you can run: `bash train_GCEs.sh`. This will launch a bash script that retrains all the models with the hyperparameters as they are found in our report.
